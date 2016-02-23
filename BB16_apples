@@ -1,17 +1,14 @@
-public class tuna 
+import java.util.Scanner;
+
+class apples 
 {
-	private String girlName;
-	public void setName(String name)
+	public static void main(String[] args)
 	{
-		girlName = name;
-	}
-	public String getName()
-	{
-		return girlName;
-	}
-	public void saying()
-	{
-		System.out.printf("Your first gf was %s", getName());
+			Scanner input = new Scanner(System.in);
+			tuna tunaObject = new tuna();
+			System.out.println("Enter name of first Girlfriend Here");
+			String temp = input.nextLine();
+			tunaObject.setName(temp);
+			tunaObject.saying();
 	}
 }
-
