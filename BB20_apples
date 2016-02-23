@@ -5,3 +5,4 @@ class apples {
 		System.out.println(age > 50 ? "You are old" : "You are young");
 	}
 }
+ 
