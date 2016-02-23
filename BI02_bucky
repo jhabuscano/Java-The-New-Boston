@@ -1,0 +1,8 @@
+public class bucky {
+	public static void main(String args[]){
+		
+		String s = "buckyrbertsbuckyroberrts";
+		
+		System.out.println(s.indexOf('k',5));
+	}
+}
