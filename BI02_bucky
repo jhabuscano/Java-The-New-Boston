@@ -4,5 +4,18 @@ public class bucky {
 		String s = "buckyrbertsbuckyroberrts";
 		
 		System.out.println(s.indexOf('k',5));
+		
+		String a = "Bacon ";
+		String b = "Monster";
+		
+		System.out.println(a.concat(b));
+		
+		
+		String c = "Hotdog ";
+		String d = "Cheesedog";
+		
+		System.out.println(c.replace('H', 'Y'));
+		
+		
 	}
 }
