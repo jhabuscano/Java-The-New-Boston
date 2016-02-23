@@ -6,15 +6,16 @@ public class bucky {
 		System.out.println(s.indexOf('k',5));
 		
 		String a = "Bacon ";
-		String b = "Monster";
+		String b = "   Monster";
 		
 		System.out.println(a.concat(b));
-		
+		System.out.println(b.trim());
 		
 		String c = "Hotdog ";
 		String d = "Cheesedog";
 		
 		System.out.println(c.replace('H', 'Y'));
+		System.out.println(d.toUpperCase());
 		
 		
 	}
