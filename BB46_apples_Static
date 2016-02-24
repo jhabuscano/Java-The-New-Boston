@@ -1,0 +1,26 @@
+class apples{
+	public static void main(String[] args){
+		tuna member1 = new tuna("Megan","Fox");
+		tuna member2 = new tuna("Megan","Fox2");
+		tuna member3 = new tuna("Megan","Fox3");
+	
+		
+		System.out.println(tuna.getMembers());
+		System.out.println(member1.getFirst());
+		System.out.println(member1.getLast());
+		System.out.println(member1.getMembers());
+	
+	}
+	
+}
+
+
+
+
+/*Constructor for Megan Fox, members in the club: 1
+Constructor for Megan Fox2, members in the club: 2
+Constructor for Megan Fox3, members in the club: 3
+3
+Megan
+Fox
+3*/
