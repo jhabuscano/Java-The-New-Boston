@@ -1,0 +1,18 @@
+class apples{
+	public static void main(String[]args){
+		tuna tunaObject = new tuna();
+		System.out.println(tunaObject.toMilitary());
+		System.out.println(tunaObject.toString());
+		
+		tunaObject.setTime(13, 27, 6);
+		System.out.println(tunaObject.toMilitary());
+		System.out.println(tunaObject.toString());
+	}
+}
+
+
+
+00:00:00
+12:00:00
+13:27:06
+1:27:06
